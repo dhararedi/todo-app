@@ -5,7 +5,7 @@ A fully functional, responsive, and modern **To-Do List App** built using **java
 
 ---
 
-## 🚀 Features
+## Features
 
 - Add, complete, delete tasks
 - Edit tasks inline (double-click or edit icon)

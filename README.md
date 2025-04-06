@@ -1,19 +1,19 @@
 
 # 📝 TypeScript To-Do App
 
-A fully functional, responsive, and modern **To-Do List App** built using **TypeScript**, **HTML**, and **CSS** — with no external libraries or frameworks. Designed with clean code, user-friendly UX, and persistent storage via `localStorage`.
+A fully functional, responsive, and modern **To-Do List App** built using **javaScript**, **TypeScript**, **HTML**, and **CSS** — with no external libraries or frameworks. Designed with clean code, user-friendly UX, and persistent storage via `localStorage`.
 
 ---
 
 ## 🚀 Features
 
-- ✅ Add, complete, delete tasks
-- ✏️ Edit tasks inline (double-click or edit icon)
-- 🔃 Reorder tasks via drag and drop
-- 📱 Mobile responsive design
-- 🧠 Built with modular **TypeScript classes**
-- 💾 Persists tasks in `localStorage`
-- 🎯 Clean UI & accessible interaction
+- Add, complete, delete tasks
+- Edit tasks inline (double-click or edit icon)
+- Reorder tasks via drag and drop
+- Mobile responsive design
+- Built with modular **TypeScript classes**
+  Persists tasks in `localStorage`
+- Clean UI & accessible interaction
 
 ---
 

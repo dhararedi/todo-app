@@ -1,5 +1,5 @@
 
-# 📝 TypeScript To-Do App
+# To-Do App
 
 A fully functional, responsive, and modern **To-Do List App** built using **javaScript**, **TypeScript**, **HTML**, and **CSS** — with no external libraries or frameworks. Designed with clean code, user-friendly UX, and persistent storage via `localStorage`.
 

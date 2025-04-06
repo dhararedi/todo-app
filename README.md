@@ -1,7 +1,7 @@
 
 # To-Do App
 
-A fully functional, responsive, and modern **To-Do List App** built using **javaScript**, **TypeScript**, **HTML**, and **CSS** — with no external libraries or frameworks. Designed with clean code, user-friendly UX, and persistent storage via localstorage.
+A fully functional, responsive, and modern **To-Do List App** built using **javaScript**, **TypeScript**, **HTML**, and **CSS**. Designed with clean code, user-friendly UX, and persistent storage via localstorage.
 
 ---
 
@@ -20,7 +20,7 @@ A fully functional, responsive, and modern **To-Do List App** built using **java
 ## Folder Structure
 
 ```
-todo-pro/
+todo /
 ├── index.html        # Main HTML entry
 ├── style.css         # Styling and layout
 ├── app.ts            # TypeScript 

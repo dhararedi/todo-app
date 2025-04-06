@@ -1,0 +1,140 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.todo-container {
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.todo-input-section {
+  display: flex;
+  gap: 10px;
+}
+
+#todo-input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+#todo-input:focus{
+  border-color: #0056b3;
+  outline: none;
+}
+#add-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#add-btn:hover {
+  background: #0056b3;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  margin: 6px 0;
+  background: #f8f9fa;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.todo-text {
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.completed .todo-text {
+  text-decoration: line-through;
+  color: #999;
+}
+.checkbox {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  font-size: 25px;
+  text-align: center;
+  border: 0.06rem solid var(--grey-border);
+  border-radius: 50%;
+  color: transparent;
+}
+.checkbox:checked {
+  accent-color: #5c7eb8;
+}
+
+.edit-input {
+  font-size: 16px;
+  padding: 5px;
+  width: 75%;
+  box-sizing: border-box;
+}
+.edit-input:focus{
+  border-color: #999;
+  outline: none;
+}
+.edit-btn, .delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  color: #888;
+}
+
+.edit-btn:hover {
+  color: #007bff;
+}
+
+.delete-btn:hover {
+  color: #dc3545;
+}
+li.dragging {
+  opacity: 0.5;
+}
+
+li.drag-over {
+  border: 2px dashed #007bff;
+}
+
+@media (max-width: 600px) {
+  .todo-input-section {
+    flex-direction: column;
+  }
+
+  #add-btn {
+    width: 100%;
+  }
+}

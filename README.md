@@ -12,7 +12,7 @@ A fully functional, responsive, and modern **To-Do List App** built using **java
 - Reorder tasks via drag and drop
 - Mobile responsive design
 - Built with modular **TypeScript classes**
-  Persists tasks in localstorage
+- Persists tasks in localstorage
 - Clean UI & accessible interaction
 
 ---

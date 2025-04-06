@@ -23,8 +23,8 @@ A fully functional, responsive, and modern **To-Do List App** built using **Type
 todo-pro/
 ├── index.html        # Main HTML entry
 ├── style.css         # Styling and layout
-├── app.ts            # TypeScript source (modular)
-├── app.js            # Compiled JavaScript (auto-generated)
+├── app.ts            # TypeScript 
+├── app.js            # JavaScript 
 ├── tsconfig.json     # TypeScript configuration
 ├── README.md         # This documentation
 ```
